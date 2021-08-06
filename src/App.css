@@ -1,0 +1,38 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('./Img/background.jpg');
+}
+
+.App {
+  position: relative;
+  width: 37rem;
+  margin: 18rem auto;
+  background: #060c21;
+  display: flex;
+  justify-content: center;
+}
+
+.App::before{
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(235deg, #ff005e, #010615, #00bcd4);
+  z-index: -1;
+}
+
+.App::after{
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(235deg, #ff005e, #010615, #00bcd4);
+  z-index: -2;
+  filter: blur(40px);
+}

@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap');
+
+.center-line{
+    display: block;
+    width: 26rem;
+    height: 0.1px;
+}
+
+.left-line, .right-line{
+    display: inline-block;
+    width: 5rem;
+}
+
+.hi{
+    display: inline-block;
+    padding: 0px 1rem;
+}
+
+.title{
+    text-align: center;
+    color: white;
+    font-family: 'Old Standard TT', serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.events-name{
+    color: #00bcd4;
+    cursor: pointer;
+}
+
+.address{
+    color: #ff005e;
+}
+
+.date{
+    width: 30%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 20px 25px;
+}
+
+.info{
+    width: 80%;
+}
+
+.price{
+    text-align: end;
+    color: teal;
+    font-weight: bold;
+}
